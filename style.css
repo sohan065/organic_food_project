@@ -21,10 +21,14 @@
   color: black !important;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  transition: 0.4s !important;
 }
 .nav-link:hover {
-  color: black !important;
+  background-color: orange;
+  border-radius: 5px;
+  transform: scale(1, 1);
 }
+
 .search {
   height: 40px;
   width: 80%;
@@ -83,3 +87,60 @@
   transition: 0.4s;
 }
 /* card end */
+
+/* apple start */
+#apple {
+  height: 100vh;
+  background: url(images/apple2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+/* apple end */
+
+/* contact us  */
+#contact {
+  padding: 2% 10%;
+  background: #f4f6f7dc;
+}
+.form-group label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/* end contact us */
+
+/* news start */
+#news {
+  background-color: black;
+  color: white;
+  /* padding-bottom: 10px; */
+}
+#news .btn2 {
+  height: 45px;
+  width: 100px;
+  background-color: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+#news input {
+  height: 45px;
+  width: 55%;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+#news::placeholder {
+  color: white;
+}
+#news p {
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
+/* news end */
