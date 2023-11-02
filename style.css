@@ -69,4 +69,14 @@
   background-color: bisque;
   color: black;
 }
+
 /* banner end */
+
+/* card start */
+.card:hover {
+  box-shadow: 0px 8px 5px 8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 8px 5px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 5px 8px rgba(0, 0, 0, 0.75);
+  transition: 0.4s;
+}
+/* card end */
